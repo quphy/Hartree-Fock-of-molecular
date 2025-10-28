@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -compatibility_version 3.1.1 -current_version 3.1.1 -o libCatch2Main.3.1.1.dylib -install_name @rpath/libCatch2Main.3.1.1.dylib CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o  -Wl,-rpath,/Users/wzq/HF_in_cpp/build/external/Catch2/src libCatch2.3.1.1.dylib
