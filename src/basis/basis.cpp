@@ -20,7 +20,7 @@ basis::basis(){
 }
 
 basis::basis(const geometry:: atoms & atom, const std::string &basis_set){
-//在CMAKE中通过宏定义给BASIS_SET的路径
+
  const std::string basis_path = "../data/basis_set_exchange/";
  std::fstream file;
  file.open(basis_path + basis_set+ ".0.json") ;
