@@ -1,0 +1,19 @@
+{
+  "geometry": {
+    "atoms": [
+      ["H", 0, 0, 0],
+      ["H", 0.74, 0, 0]
+    ],
+
+    "charge": 0
+  },
+
+  "basis": "6-31g",
+  "method": "rohf",
+  "mulitiplicity":3,
+  "energy_tolerance": 1e-6,
+  "mixing": "simple_mixing",
+  "max_iter": 100,
+  "initial_guess": "H0",
+  "mixing_alpha": 0.2
+}

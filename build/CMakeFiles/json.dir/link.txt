@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libjson.dylib -install_name @rpath/libjson.dylib CMakeFiles/json.dir/external/nlohmann/json.cpp.o

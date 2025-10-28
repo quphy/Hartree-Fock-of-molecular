@@ -1,0 +1,284 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "external/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.fmt-Release-81c9c1ddab2812c7e232.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/fmt",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "external/args",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.args-Release-e63ff6947ef09905f4a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/args",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6,
+						8
+					]
+				},
+				{
+					"build" : "external/Catch2",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-external.Catch2-Release-7d23c53dc22c5d076c80.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "external/Catch2"
+				},
+				{
+					"build" : "external/Catch2/src",
+					"jsonFile" : "directory-external.Catch2.src-Release-54768a982985536a44ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "external/Catch2/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "external/libcint",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.libcint-Release-b94e9466f23e672f02ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "external/libcint",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hf",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "args",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "cint",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2::@2cd104c1e9c8c9f90458",
+					"jsonFile" : "target-Catch2-Release-ddd9b3806c2b9aceb91f.json",
+					"name" : "Catch2",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Catch2WithMain::@2cd104c1e9c8c9f90458",
+					"jsonFile" : "target-Catch2WithMain-Release-8e7830cf9d041e87a438.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argstest::@8cd61f61c9b92a441174",
+					"jsonFile" : "target-argstest-Release-915fea5b7cb5c11d8f48.json",
+					"name" : "argstest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argstest-multiple-inclusion::@8cd61f61c9b92a441174",
+					"jsonFile" : "target-argstest-multiple-inclusion-Release-34470d378f67b64c7e8e.json",
+					"name" : "argstest-multiple-inclusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argstest-windows-h::@8cd61f61c9b92a441174",
+					"jsonFile" : "target-argstest-windows-h-Release-cf828dae9b229d87578f.json",
+					"name" : "argstest-windows-h",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cint::@d9f3f88246da0ec8f0fe",
+					"jsonFile" : "target-cint-Release-fb82e77f174dca3923ac.json",
+					"name" : "cint",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "completion::@8cd61f61c9b92a441174",
+					"jsonFile" : "target-completion-Release-9785e9ac0434340679ea.json",
+					"name" : "completion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fmt::@26af8659e4d2d893069d",
+					"jsonFile" : "target-fmt-Release-b9217dbffb32cae06d75.json",
+					"name" : "fmt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gitlike::@8cd61f61c9b92a441174",
+					"jsonFile" : "target-gitlike-Release-69715bb39bd5085fee7c.json",
+					"name" : "gitlike",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hf-Release-9902d8318568b20ae97e.json",
+					"name" : "hf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-json-Release-79b84431c4ee225bf5fb.json",
+					"name" : "json",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/wzq/HF_in_cpp/build",
+		"source" : "/Users/wzq/HF_in_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
